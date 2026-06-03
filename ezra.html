@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow"><title>EZRA Rentals & Sales | Heavy Equipment Rentals & Sales, Grande Prairie AB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif}
+:root{--bg:#070707;--bg2:#141414;--text:#ffffff;--ac:#ff6600;--acb:#cc5200;--ach:#ff8533;--mut:#a8a8a8;--card:#ffffff;--ink:#16222e;--line:#e2eaf1}
+body{color:var(--text);background:var(--bg)}
+.ribbon{position:fixed;top:16px;right:-46px;transform:rotate(45deg);background:#10b981;color:#fff;font-size:12px;font-weight:800;letter-spacing:.5px;padding:6px 58px;box-shadow:0 2px 10px rgba(0,0,0,.35);z-index:99}
+.top{background:var(--bg2);display:flex;justify-content:space-between;align-items:center;padding:13px 38px;border-bottom:1px solid rgba(255,255,255,.07)}
+.top img.logo{height:40px;width:auto;display:block}
+.top .right{display:flex;gap:18px;align-items:center}
+.top .ph{color:var(--text);font-weight:700;font-size:15px;text-decoration:none;opacity:.92}
+.callbtn{background:var(--ac);color:#fff;font-weight:800;padding:10px 20px;border-radius:8px;text-decoration:none;font-size:15px;border:1px solid var(--acb)}
+.hero{background:linear-gradient(100deg, rgba(7,7,7,.92) 0%, rgba(7,7,7,.55) 48%, rgba(7,7,7,.20) 100%), url('img/ezra_hero.jpg');background-size:cover;background-position:center;padding:64px 38px 74px;position:relative;overflow:hidden}
+.wrap{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:start;position:relative;z-index:2}
+.eyebrow{display:inline-block;background:rgba(255,102,0,0.16);color:var(--ac);font-weight:800;font-size:12.5px;letter-spacing:1.2px;text-transform:uppercase;padding:6px 14px;border-radius:30px;margin-bottom:18px}
+h1{font-size:44px;line-height:1.07;font-weight:800;letter-spacing:-.5px;color:var(--text)}
+h1 .hl{color:var(--ac)}
+.sub{font-size:18px;color:#d2d2d2;margin:18px 0 6px;max-width:540px;line-height:1.5}
+.trust{display:flex;gap:13px;flex-wrap:wrap;margin-top:26px}
+.tcard{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.13);border-radius:12px;padding:13px 16px;display:flex;gap:11px;align-items:center;min-width:158px}
+.tcard .ic{font-size:21px}
+.tcard b{display:block;font-size:14px;color:var(--text)}
+.tcard small{color:#d2d2d2;font-size:12px}
+.form{background:var(--card);border-radius:16px;box-shadow:0 30px 60px rgba(0,0,0,.4);padding:26px 24px;color:var(--ink)}
+.form h3{font-size:21px;font-weight:800;color:var(--bg2)}
+.form p.fp{font-size:13.5px;color:#5b6b7d;margin:6px 0 16px}
+.form label{font-size:12.5px;font-weight:700;display:block;margin:0 0 5px;color:var(--ink)}
+.form input,.form select{width:100%;padding:12px 13px;border:1.5px solid var(--line);border-radius:9px;font-size:15px;margin-bottom:12px;background:#f8fbfd;color:var(--ink)}
+.form input:focus,.form select:focus{outline:none;border-color:var(--ac)}
+.submit{width:100%;background:var(--ac);color:#fff;font-weight:800;font-size:17px;border:1px solid var(--acb);padding:15px;border-radius:10px;cursor:pointer}
+.formfoot{text-align:center;font-size:12px;color:#5b6b7d;margin-top:10px}
+.sec{max-width:1180px;margin:0 auto;padding:54px 38px}
+.sec h2{font-size:30px;font-weight:800;color:var(--text);text-align:center}
+.sec .lead{text-align:center;color:var(--mut);font-size:16px;margin:10px auto 34px;max-width:640px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.svc{border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.03);border-radius:13px;padding:22px 16px;text-align:center}
+.svc .ic{font-size:28px;margin-bottom:10px}
+.svc b{display:block;font-size:15px;color:var(--text);margin-bottom:5px}
+.svc small{color:var(--mut);font-size:12.5px;line-height:1.45}
+.band{background:var(--bg2);border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.gallery img{width:100%;height:210px;object-fit:cover;border-radius:12px;border:1px solid rgba(255,255,255,.12);display:block}
+.brands{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;max-width:900px;margin:0 auto}
+.brand-chip{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.13);border-radius:10px;padding:12px 20px;font-weight:700;font-size:15px;color:var(--text)}
+.revcard{max-width:680px;margin:0 auto;background:rgba(255,255,255,.04);border:1.5px dashed var(--ac);border-radius:14px;padding:28px 26px;text-align:center}
+.revcard .stars{color:var(--ac);font-size:24px;letter-spacing:3px}
+.revcard p{color:var(--text);font-size:16px;margin:12px 0 6px;font-weight:600}
+.revcard small{color:var(--mut);font-size:13px}
+.cta{background:var(--ac);color:#fff;text-align:center;padding:48px 24px}
+.cta h2{font-size:28px;font-weight:800;color:#fff}
+.cta p{color:rgba(255,255,255,.92);margin:10px 0 22px}
+.cta a{background:#fff;color:var(--bg2);font-weight:800;font-size:18px;padding:15px 30px;border-radius:10px;text-decoration:none}
+.ft{background:var(--bg);color:var(--mut);font-size:13px;padding:26px 38px;text-align:center;border-top:1px solid rgba(255,255,255,.08)}
+.ft .nap{color:var(--text);font-weight:600;margin-bottom:6px}
+.apexnote{background:#0b0b0b;color:#9fb3c8;font-size:12.5px;padding:14px 38px;text-align:center}
+.apexnote a{color:var(--ac);font-weight:700;text-decoration:none}
+@media(max-width:860px){.wrap{grid-template-columns:1fr;gap:30px}.grid{grid-template-columns:repeat(2,1fr)}h1{font-size:34px}}
+@media(max-width:560px){
+.top{padding:10px 15px}.top img.logo{height:30px}.top .ph{display:none}
+.callbtn{padding:9px 14px;font-size:13.5px}
+.hero{padding:34px 18px 42px}.sec{padding:38px 18px}.ft,.apexnote{padding-left:18px;padding-right:18px}
+.eyebrow{font-size:10.5px;letter-spacing:.6px;padding:5px 11px}
+h1{font-size:29px;line-height:1.12}.sub{font-size:16px}
+.trust{gap:9px}.tcard{flex:1 1 100%;min-width:0}
+.form{padding:22px 18px}.sec h2{font-size:24px}
+.gallery{grid-template-columns:repeat(2,1fr);gap:9px}.gallery img{height:140px}
+.cta h2{font-size:23px}.cta a{font-size:16px;padding:14px 22px}
+}
+</style></head><body>
+<div class="ribbon">PREVIEW · APEX</div>
+<div class="top"><img class="logo" src="https://ezraindustrial.com/wp-content/uploads/2018/06/Ezra-Black-background-Jonathan-Isaac.png" alt="EZRA Rentals & Sales">
+<div class="right"><a class="ph" href="tel:7808765008">(780) 876-5008</a><a class="callbtn" href="tel:7808765008">Request a Quote</a></div></div>
+<section class="hero"><div class="wrap"><div>
+<span class="eyebrow">Heavy Equipment Rentals & Sales · Grande Prairie, AB</span>
+<h1>The Iron You Need, Ready to Work. <span class="hl">Rent or Buy.</span></h1>
+<p class="sub">Excavators, dozers, graders, loaders and trailers across the Peace Country. We even line up the trucking to get it to your site. Day, week and month rates, no run-around.</p>
+<div class="trust"><div class="tcard"><span class="ic">🏗️</span><div><b>Top Brands</b><small>Cat, Komatsu, Deere, Volvo, Hitachi</small></div></div><div class="tcard"><span class="ic">💲</span><div><b>Clear Rates</b><small>Day / week / month, upfront</small></div></div><div class="tcard"><span class="ic">🚛</span><div><b>We Move It</b><small>We line up the trucking to your site</small></div></div></div>
+</div><div class="form">
+<h3>Request a Rental Quote</h3><p class="fp">Tell us the machine and the dates. We will get you a price fast.</p>
+<label>Name</label><input type="text" placeholder="Your name"><label>Phone</label><input type="tel" placeholder="(780) 000-0000"><label>Which equipment?</label><select><option>Excavator</option><option>Dozer</option><option>Grader</option><option>Wheel loader</option><option>Rock truck</option><option>Skidsteer / telehandler</option><option>Compactor</option><option>Trailer</option><option>Other / not sure</option></select><label>Rent or buy?</label><select><option>Rental</option><option>Purchase</option><option>Either, advise me</option></select>
+<button class="submit">Get My Quote &rarr;</button>
+<p class="formfoot">No obligation. Darwin gets back to you direct.</p>
+</div></div></section>
+<section class="sec"><h2>Our Equipment</h2><p class="lead">A real, current fleet, ready to rent or buy. A sample of what is on the yard:</p><div class="grid"><div class="svc"><div class="ic">⛏️</div><b>Excavators</b><small>Komatsu, Hitachi, Deere, 21 to 35 tonne class.</small></div><div class="svc"><div class="ic">🚜</div><b>Dozers</b><small>Cat D6 and D8, Komatsu intelligent GPS dozers.</small></div><div class="svc"><div class="ic">🛣️</div><b>Graders</b><small>Cat and John Deere all-wheel-drive graders.</small></div><div class="svc"><div class="ic">🪣</div><b>Wheel Loaders</b><small>John Deere production loaders.</small></div><div class="svc"><div class="ic">🚚</div><b>Rock Trucks</b><small>30-ton Volvo, Cat, Deere and Komatsu artic dumps.</small></div><div class="svc"><div class="ic">🔧</div><b>Attachments</b><small>Breakers, rippers, chuck blades and more.</small></div><div class="svc"><div class="ic">🏗️</div><b>Telehandlers / Skidsteers</b><small>Cat and Deere, late models.</small></div><div class="svc"><div class="ic">🛻</div><b>Trailers</b><small>Lowbed, double drop, Super B, scissor neck and more.</small></div></div></section>
+<section class="band"><div class="sec"><h2>The Fleet, Up Close</h2><p class="lead">A sample of the real machines on the Ezra yard, ready to rent or buy.</p><div class="gallery"><img src="img/e1.jpg" alt="EZRA Rentals & Sales equipment"><img src="img/e2.jpg" alt="EZRA Rentals & Sales equipment"><img src="img/e3.jpg" alt="EZRA Rentals & Sales equipment"><img src="img/e4.jpeg" alt="EZRA Rentals & Sales equipment"><img src="img/e5.jpeg" alt="EZRA Rentals & Sales equipment"><img src="img/e6.jpeg" alt="EZRA Rentals & Sales equipment"></div></div></section>
+<section class="sec"><h2>Brands You Already Trust</h2><p class="lead">Late-model iron from the makers your crews already run.</p><div class="brands"><div class="brand-chip">Caterpillar</div><div class="brand-chip">Komatsu</div><div class="brand-chip">John Deere</div><div class="brand-chip">Volvo</div><div class="brand-chip">Hitachi</div><div class="brand-chip">Case</div><div class="brand-chip">Wacker</div><div class="brand-chip">XCMG</div></div></section>
+<section class="sec"><h2>Your Reputation, Front and Center</h2><p class="lead">A full yard of iron, and not one review showing online yet.</p>
+<div class="revcard"><div class="stars">★★★★★</div><p>Your real Google reviews will load right here.</p><small>You have none showing today. For equipment rental, the map pack is where buyers look. A handful of reviews would put you ahead of the big national outfits locally. We set that up for you.</small></div></section>
+<section class="cta"><h2>Need a Machine This Week?</h2><p>Call Darwin direct for a rental or purchase quote. We will line up the trucking too.</p><a href="tel:7808765008">📞 Call (780) 876-5008</a></section>
+<div class="ft"><div class="nap">EZRA Rentals & Sales</div>Yard: Jct Hwy 43 / Range Rd 75, Grande Prairie, AB · (780) 876-5008 · Toll-free 1-844-846-3972 · darwin@ezraindustrial.com</div>
+<div class="apexnote">This is a free preview rebuild by <b>Apex ACQ</b>, not EZRA Rentals & Sales's live site. See how we work &rarr; <a href="https://grow.apexacq.co">grow.apexacq.co</a></div>
+</body></html>
